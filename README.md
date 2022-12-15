@@ -2,7 +2,7 @@
 F23 UMich SI507 final project
 
 # Description
-To run this program, clone the repo, if you want to scrap the latest data from /href{www.futbin.com}, then run python3 data_processing.py(please be aware that this program takes 6 hours to run) and python3 main.py sequentially. If you want to use cache, then just run python3 main.py.
+To run this program, clone the repo, if you want to scrap the latest data from www.futbin.com, then run python3 data_processing.py(please be aware that this program takes 6 hours to run) and python3 main.py sequentially. If you want to use cache, then just run python3 main.py.
 
 # Interface
 The user will first be asked to input a rating, then the program would output the k players with the lowest market values of that rating, or the k players with the highest market values of that rating, the user will also have a choice to displace the full output or the concise output.
