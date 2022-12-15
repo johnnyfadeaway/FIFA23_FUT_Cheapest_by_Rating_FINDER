@@ -6,7 +6,7 @@ tree_82, tree_83, tree_84, tree_85, tree_86, tree_87, tree_88, tree_89, tree_90,
 rating_list = ["82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92"]
 # This function prints the search result (players infomation)
 def print_result(player, concise=False):
-    if(~concise):
+    if(concise == False):
         print("-----------------------------------")
         print("Name:", player["name"])
         print("Market Value:", player["price"])
@@ -59,7 +59,7 @@ def yes2True(str):
 
 
 while(True):
-    print("Welcome to FIFA23 UT Chaapest by raing finder")
+    print("Welcome to FIFA23 UT Cheapest by rating finder")
     invalid_rating = True
     while(invalid_rating):
         choice = input("please enter a player rating from 82 to 92:")
